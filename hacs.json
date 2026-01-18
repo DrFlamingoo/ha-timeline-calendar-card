@@ -1,13 +1,6 @@
 {
   "name": "Timeline Calendar Card",
-  "content_in_root": true,
-  "filename": "timeline-calendar-card.js",
   "domains": ["calendar"],
   "homeassistant": "2024.1.0",
-  "iot_class": "local_polling",
-  "documentation": "https://github.com/DrFlamingoo/ha-timeline-calendar-card/blob/main/README.md",
-  "issues": "https://github.com/DrFlamingoo/ha-timeline-calendar-card/issues",
-  "source": "custom",
-  "render_readme": true,
-  "requirements": []
+  "render_readme": true
 }

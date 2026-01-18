@@ -8,7 +8,7 @@ export default {
   mode: 'production',
   entry: './src/timeline-calendar-card.ts',
   output: {
-    filename: 'timeline-calendar-card.js',
+    filename: 'ha-timeline-calendar-card.js',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
