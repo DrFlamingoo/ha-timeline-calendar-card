@@ -5,8 +5,8 @@
   "domains": ["calendar"],
   "homeassistant": "2024.1.0",
   "iot_class": "local_polling",
-  "documentation": "https://github.com/yourusername/timeline-calendar/blob/main/README.md",
-  "issues": "https://github.com/yourusername/timeline-calendar/issues",
+  "documentation": "https://github.com/DrFlamingoo/ha-timeline-calendar-card/blob/main/README.md",
+  "issues": "https://github.com/DrFlamingoo/ha-timeline-calendar-card/issues",
   "source": "custom",
   "render_readme": true,
   "requirements": []
