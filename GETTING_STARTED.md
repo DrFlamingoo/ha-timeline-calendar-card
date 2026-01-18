@@ -1,5 +1,34 @@
 # Getting Started with Timeline Calendar Card
 
+## Visual Overview
+
+The Timeline Calendar Card displays a 24-hour horizontal timeline with events positioned based on their start/end times:
+
+```
+TIME AXIS:
+  2AM    4AM    6AM    8AM   10AM   12PM    2PM    4PM    6PM    8PM   10PM
+───┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼──────┼───
+
+EVENTS (Masonry Layout):
+Row 1: ┌──────────┐                          ┌─────────────┐
+       │ Meeting  │                          │ Team Sync   │
+       └──────────┘                          └─────────────┘
+
+Row 2:      ┌──────────────────────────────┐
+            │ Project Work                 │
+            └──────────────────────────────┘
+
+Row 3:                 ┌──────────┐         ┌────────┐
+                       │ Lunch    │         │ Standup│
+                       └──────────┘         └────────┘
+```
+
+**Key Features:**
+- Events are positioned horizontally based on time
+- Overlapping events stack vertically (masonry layout)
+- Background gradient changes throughout the day (night → day → night)
+- Full day view from 2 AM to 2 AM
+
 ## Quick Start
 
 ### Install Dependencies
