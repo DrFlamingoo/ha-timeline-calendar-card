@@ -88,11 +88,11 @@ This runs the visualization which shows:
 
 ## Installation
 
-1. Copy `dist/timeline-calendar-card.js` to your Home Assistant config folder: `config/www/`
+1. Copy `dist/ha-timeline-calendar-card.js` to your Home Assistant config folder: `config/www/`
 2. Add a resource to your dashboard:
    ```yaml
    resources:
-     - url: /local/timeline-calendar-card.js
+     - url: /local/ha-timeline-calendar-card.js
        type: module
    ```
 3. Add the card to your dashboard:
